@@ -7,6 +7,13 @@ This file fixes SharePoint 2010 javascript compatibility errors wich occurs in I
 * Datepicker shows **true** after closing
 ![alt text](https://raw.githubusercontent.com/Jonas-buriti/sharepoint-2010-js/master/dt-error.png)
 
+* Datepicker.js "Document.frames function expected" error:
+![alt text](https://raw.githubusercontent.com/Jonas-buriti/sharepoint-2010-js/master/function-error.png)
+
+* sp.ui.rte.js "Unable to get property 'parentElement' expected error:
+![alt text](https://raw.githubusercontent.com/Jonas-buriti/sharepoint-2010-js/master/rte-error.png)
+
+
 ##Usage
 Links the .js in your page **or** masterpage **or** page layout
 ```  
