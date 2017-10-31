@@ -14,7 +14,7 @@ This file fixes SharePoint 2010 javascript compatibility errors wich occurs in I
 ![alt text](https://raw.githubusercontent.com/Jonas-buriti/sharepoint-2010-js/master/rte-error.png)
 
 
-##Usage
+## Usage
 Links the .js in your page **or** masterpage **or** page layout
 ```  
 <SharePoint:ScriptLink Name="~SiteCollection/style library/js/sp2010-ie11-fixings.js" runat="server"></SharePoint:ScriptLink >
