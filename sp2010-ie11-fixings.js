@@ -1,5 +1,5 @@
 ﻿// fixes sp2010 incompatibility issues with IE >= 11
-ExecuteOrDelayUntilScriptLoaded(function () { 
+ExecuteOrDelayUntilScriptLoaded(function () {
 	ClickDay = function (c) {
 	    ULSvmd:;
 	    var a = GetIframe();
@@ -22,7 +22,14 @@ ExecuteOrDelayUntilScriptLoaded(function () {
 	    var content = $.trim($(this.Picker).contents().find('body').text());
 	    if(content == 'true'){
 	    	this.Picker.style.display = "none";
-	    }		    
+	    }
+	}
+	// Fixes Unable to get property 'classname' of undefined or null reference File: sp.ui.rte.js
+	RTE.Canvas.$1P=function(b){
+			if (b == undefined) return;
+			ULSNVe:;
+			var a=b.className;
+			return !RTE.SU.$4(a)&&a.indexOf("ms-rtestate-read")>=0
 	}
 	RTE.Canvas.checkCurrentFocus = function() {
 	    ULSNVe:;
